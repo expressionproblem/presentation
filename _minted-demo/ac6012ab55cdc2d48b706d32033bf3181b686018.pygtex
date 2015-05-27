@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k}{public} \PYGmonokai{k}{static} \PYGmonokai{k}{class} \PYGmonokai{n+nc}{PrettyPrinter} \PYGmonokai{p}{\PYGmonokaiZob{}}
+  \PYGmonokai{k}{public} \PYGmonokai{k}{static} \PYGmonokai{k+kt}{string} \PYGmonokai{n+nf}{Pretty}\PYGmonokai{p}{(}\PYGmonokai{k}{this} \PYGmonokai{n}{Const} \PYGmonokai{n}{exp}\PYGmonokai{p}{)}
+  \PYGmonokai{p}{\PYGmonokaiZob{}}
+    \PYGmonokai{k}{return} \PYGmonokai{n}{exp}\PYGmonokai{p}{.}\PYGmonokai{n}{i}\PYGmonokai{p}{.}\PYGmonokai{n}{ToString}\PYGmonokai{p}{();}
+  \PYGmonokai{p}{\PYGmonokaiZcb{}}
+  \PYGmonokai{k}{public} \PYGmonokai{k}{static} \PYGmonokai{k+kt}{string} \PYGmonokai{n+nf}{Pretty}\PYGmonokai{p}{(}\PYGmonokai{k}{this} \PYGmonokai{n}{Add} \PYGmonokai{n}{exp}\PYGmonokai{p}{)}
+  \PYGmonokai{p}{\PYGmonokaiZob{}}
+    \PYGmonokai{k}{return} \PYGmonokai{n}{exp}\PYGmonokai{p}{.}\PYGmonokai{n}{l}\PYGmonokai{p}{.}\PYGmonokai{n}{Pretty}\PYGmonokai{p}{()} \PYGmonokai{p}{+} \PYGmonokai{l+s}{\PYGmonokaiZdq{} + \PYGmonokaiZdq{}} \PYGmonokai{p}{+} \PYGmonokai{p}{..}
+  \PYGmonokai{p}{\PYGmonokaiZcb{}}
+\PYGmonokai{p}{\PYGmonokaiZcb{}}
+\end{Verbatim}

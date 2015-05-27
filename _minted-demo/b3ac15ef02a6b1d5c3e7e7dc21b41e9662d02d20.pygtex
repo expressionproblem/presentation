@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kr}{class} \PYGmonokai{k+kt}{Expr} \PYGmonokai{n}{e} \PYGmonokai{o+ow}{=\PYGmonokaiZgt{}} \PYGmonokai{k+kt}{Eval} \PYGmonokai{n}{e} \PYGmonokai{k+kr}{where}
+ \PYGmonokai{n}{eval} \PYGmonokai{o+ow}{::} \PYGmonokai{n}{e} \PYGmonokai{o+ow}{\PYGmonokaiZhy{}\PYGmonokaiZgt{}} \PYGmonokai{k+kt}{Int}
+\end{Verbatim}

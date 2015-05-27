@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kr}{data} \PYGmonokai{k+kt}{ExprWithMul} \PYGmonokai{o+ow}{=} \PYGmonokai{k+kt}{OrigExpr} \PYGmonokai{k+kt}{Expr}
+                 \PYGmonokai{o}{|} \PYGmonokai{k+kt}{Mul} \PYGmonokai{k+kt}{ExprWithMul} \PYGmonokai{k+kt}{ExprWithMul}
+\end{Verbatim}

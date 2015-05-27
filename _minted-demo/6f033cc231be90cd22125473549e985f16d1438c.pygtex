@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{n+nf}{evalWithMul} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{OrigExpr} \PYGmonokai{n}{e}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=} \PYGmonokai{n}{eval} \PYGmonokai{n}{e}
+\PYGmonokai{n+nf}{evalWithMul} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Mul} \PYGmonokai{n}{e1} \PYGmonokai{n}{e2}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=} \PYGmonokai{n}{evalWithMul} \PYGmonokai{n}{e1} \PYGmonokai{o}{*} \PYGmonokai{n}{evalWithMul} \PYGmonokai{n}{e2}
+
+\PYGmonokai{n+nf}{exampleEvalMul} \PYGmonokai{o+ow}{=} \PYGmonokai{n}{evalWithMul} \PYGmonokai{o}{\PYGmonokaiZdl{}} \PYGmonokai{k+kt}{Mul} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{OrigExpr} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Const} \PYGmonokai{l+m+mi}{2}\PYGmonokai{p}{))} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{OrigExpr} \PYGmonokai{o}{\PYGmonokaiZdl{}} \PYGmonokai{k+kt}{Add} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Const} \PYGmonokai{l+m+mi}{45}\PYGmonokai{p}{)} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Add} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Const} \PYGmonokai{l+m+mi}{3}\PYGmonokai{p}{)} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Const} \PYGmonokai{l+m+mi}{2}\PYGmonokai{p}{)))}
+\end{Verbatim}

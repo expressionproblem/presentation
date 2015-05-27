@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{IntFactory} \PYGmonokai{k+kd}{implements} \PYGmonokai{n}{IntAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{Expr}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n}{Expr} \PYGmonokai{n+nf}{lit}\PYGmonokai{o}{(}\PYGmonokai{k+kt}{int} \PYGmonokai{n}{x}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}}
+    \PYGmonokai{k}{return} \PYGmonokai{k}{new} \PYGmonokai{n}{Lit}\PYGmonokai{o}{(}\PYGmonokai{n}{x}\PYGmonokai{o}{);}
+  \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n}{Expr} \PYGmonokai{n+nf}{add}\PYGmonokai{o}{(}\PYGmonokai{n}{Expr} \PYGmonokai{n}{e1}\PYGmonokai{o}{,} \PYGmonokai{n}{Expr} \PYGmonokai{n}{e2}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}}
+    \PYGmonokai{k}{return} \PYGmonokai{k}{new} \PYGmonokai{n}{Add}\PYGmonokai{o}{(}\PYGmonokai{n}{e1}\PYGmonokai{o}{,} \PYGmonokai{n}{e2}\PYGmonokai{o}{);}
+  \PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGmonokai{p}{(}\PYGmonokai{k+kt}{Mul} \PYGmonokai{n}{a} \PYGmonokai{n}{b}\PYGmonokai{p}{)} \PYGmonokai{p}{`}\PYGmonokai{k+kt}{Add}\PYGmonokai{p}{`} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Mul} \PYGmonokai{n}{c} \PYGmonokai{n}{d}\PYGmonokai{p}{)}
+\end{Verbatim}

@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k}{public} \PYGmonokai{k}{class} \PYGmonokai{n+nc}{PrettyPrinter} \PYGmonokai{p}{\PYGmonokaiZob{}}
+  \PYGmonokai{k}{public} \PYGmonokai{k}{virtual} \PYGmonokai{k+kt}{string} \PYGmonokai{n+nf}{PrettyPrint}\PYGmonokai{p}{(}\PYGmonokai{n}{Expr} \PYGmonokai{n}{that}\PYGmonokai{p}{)}
+  \PYGmonokai{p}{\PYGmonokaiZob{}}
+      \PYGmonokai{k+kt}{var} \PYGmonokai{n}{c} \PYGmonokai{p}{=} \PYGmonokai{n}{that} \PYGmonokai{k}{as} \PYGmonokai{n}{Const}\PYGmonokai{p}{;}
+      \PYGmonokai{k}{if}\PYGmonokai{p}{(}\PYGmonokai{n}{c} \PYGmonokai{p}{!=} \PYGmonokai{k}{null}\PYGmonokai{p}{)} \PYGmonokai{k}{return} \PYGmonokai{n}{c}\PYGmonokai{p}{.}\PYGmonokai{n}{ToString}\PYGmonokai{p}{();}
+      \PYGmonokai{k+kt}{var} \PYGmonokai{n}{a} \PYGmonokai{p}{=} \PYGmonokai{n}{that} \PYGmonokai{k}{as} \PYGmonokai{n}{Add}\PYGmonokai{p}{;}
+      \PYGmonokai{k}{if}\PYGmonokai{p}{(}\PYGmonokai{n}{a} \PYGmonokai{p}{!=} \PYGmonokai{k}{null}\PYGmonokai{p}{)} \PYGmonokai{k}{return} \PYGmonokai{n}{PrettyPrint}\PYGmonokai{p}{(}\PYGmonokai{n}{a}\PYGmonokai{p}{.}\PYGmonokai{n}{left}\PYGmonokai{p}{)} \PYGmonokai{p}{+} \PYGmonokai{p}{..}
+      \PYGmonokai{k}{throw} \PYGmonokai{k}{new} \PYGmonokai{n+nf}{ArgumentException}\PYGmonokai{p}{();}
+  \PYGmonokai{p}{\PYGmonokaiZcb{}}
+\PYGmonokai{p}{\PYGmonokaiZcb{}}
+\end{Verbatim}

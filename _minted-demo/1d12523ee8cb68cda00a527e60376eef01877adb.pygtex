@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{Const} \PYGmonokai{k+kd}{implements} \PYGmonokai{n}{Expr} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{k+kt}{int} \PYGmonokai{n}{i}\PYGmonokai{o}{;}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n+nf}{Const}\PYGmonokai{o}{(}\PYGmonokai{k+kt}{int} \PYGmonokai{n}{i}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{k}{this}\PYGmonokai{o}{.}\PYGmonokai{n+na}{i} \PYGmonokai{o}{=} \PYGmonokai{n}{i}\PYGmonokai{o}{;} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{k+kt}{int} \PYGmonokai{n+nf}{eval}\PYGmonokai{o}{()} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{k}{return} \PYGmonokai{n}{i}\PYGmonokai{o}{;} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{Add} \PYGmonokai{k+kd}{implements} \PYGmonokai{n}{Expr} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{n}{Expr} \PYGmonokai{n}{l}\PYGmonokai{o}{,} \PYGmonokai{n}{r}\PYGmonokai{o}{;}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n+nf}{Add}\PYGmonokai{o}{(}\PYGmonokai{n}{Expr} \PYGmonokai{n}{l}\PYGmonokai{o}{,} \PYGmonokai{n}{Expr} \PYGmonokai{n}{r}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{k}{this}\PYGmonokai{o}{.}\PYGmonokai{n+na}{l} \PYGmonokai{o}{=} \PYGmonokai{n}{l}\PYGmonokai{o}{;} \PYGmonokai{k}{this}\PYGmonokai{o}{.}\PYGmonokai{n+na}{r} \PYGmonokai{o}{=} \PYGmonokai{n}{r}\PYGmonokai{o}{;} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{k+kt}{int} \PYGmonokai{n+nf}{eval}\PYGmonokai{o}{()} \PYGmonokai{o}{\PYGmonokaiZob{}}
+    \PYGmonokai{k}{return} \PYGmonokai{n}{l}\PYGmonokai{o}{.}\PYGmonokai{n+na}{eval}\PYGmonokai{o}{()} \PYGmonokai{o}{+} \PYGmonokai{n}{r}\PYGmonokai{o}{.}\PYGmonokai{n+na}{eval}\PYGmonokai{o}{();}
+  \PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

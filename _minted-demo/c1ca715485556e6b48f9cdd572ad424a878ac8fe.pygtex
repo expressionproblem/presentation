@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{interface} \PYGmonokai{n+nc}{Stmt} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{k+kt}{void} \PYGmonokai{n+nf}{eval}\PYGmonokai{o}{();}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{StmtFactory} \PYGmonokai{k+kd}{extends} \PYGmonokai{n}{IntBoolFactory}
+                  \PYGmonokai{k+kd}{implements} \PYGmonokai{n}{StmtAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{Expr}\PYGmonokai{o}{,}\PYGmonokai{n}{Stmt}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{n}{HashMap}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{String}\PYGmonokai{o}{,}\PYGmonokai{k+kt}{int}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{n}{map} \PYGmonokai{o}{=} \PYGmonokai{k}{new} \PYGmonokai{n}{HashMap}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{String}\PYGmonokai{o}{,}\PYGmonokai{k+kt}{int}\PYGmonokai{o}{\PYGmonokaiZgt{}();}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n}{Expr} \PYGmonokai{n+nf}{var}\PYGmonokai{o}{(}\PYGmonokai{n}{String} \PYGmonokai{n}{x}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}}
+    \PYGmonokai{k}{return} \PYGmonokai{k}{new} \PYGmonokai{n}{Expr}\PYGmonokai{o}{()} \PYGmonokai{o}{\PYGmonokaiZob{}}
+      \PYGmonokai{k+kd}{public} \PYGmonokai{k+kt}{int} \PYGmonokai{n+nf}{eval}\PYGmonokai{o}{()} \PYGmonokai{o}{\PYGmonokaiZob{}}
+        \PYGmonokai{k}{return} \PYGmonokai{n}{map}\PYGmonokai{o}{.}\PYGmonokai{n+na}{get}\PYGmonokai{o}{(}\PYGmonokai{n}{x}\PYGmonokai{o}{);}
+      \PYGmonokai{o}{\PYGmonokaiZcb{}}
+    \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n}{Expr} \PYGmonokai{n+nf}{assign}\PYGmonokai{o}{(}\PYGmonokai{n}{String} \PYGmonokai{n}{x}\PYGmonokai{o}{,} \PYGmonokai{n}{Expr} \PYGmonokai{n}{e}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{o}{..} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n}{Stmt} \PYGmonokai{n+nf}{comp}\PYGmonokai{o}{(}\PYGmonokai{n}{Stmt} \PYGmonokai{n}{s1}\PYGmonokai{o}{,} \PYGmonokai{n}{Stmt} \PYGmonokai{n}{s2}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{o}{..} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n}{Stmt} \PYGmonokai{n+nf}{expr}\PYGmonokai{o}{(}\PYGmonokai{n}{Expr} \PYGmonokai{n}{e}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{o}{..} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

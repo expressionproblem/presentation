@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{R}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{n}{R} \PYGmonokai{n+nf}{make3Plus5}\PYGmonokai{o}{(}\PYGmonokai{n}{IntAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{R}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{n}{f}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{k}{return} \PYGmonokai{n}{f}\PYGmonokai{o}{.}\PYGmonokai{n+na}{add}\PYGmonokai{o}{(} \PYGmonokai{n}{f}\PYGmonokai{o}{.}\PYGmonokai{n+na}{lit}\PYGmonokai{o}{(}\PYGmonokai{l+m+mi}{3}\PYGmonokai{o}{),} \PYGmonokai{n}{f}\PYGmonokai{o}{.}\PYGmonokai{n+na}{lit}\PYGmonokai{o}{(}\PYGmonokai{l+m+mi}{5}\PYGmonokai{o}{)} \PYGmonokai{o}{);}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

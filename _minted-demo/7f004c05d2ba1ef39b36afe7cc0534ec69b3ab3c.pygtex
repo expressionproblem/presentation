@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{IntBoolFactory2} \PYGmonokai{k+kd}{extends} \PYGmonokai{n}{Union}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{Expr}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{n}{IntBoolFactory2}\PYGmonokai{o}{()} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{k+kd}{super}\PYGmonokai{o}{(}\PYGmonokai{k}{new} \PYGmonokai{n}{BoolFactory}\PYGmonokai{o}{(),} \PYGmonokai{k}{new} \PYGmonokai{n}{IntFactory}\PYGmonokai{o}{());} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

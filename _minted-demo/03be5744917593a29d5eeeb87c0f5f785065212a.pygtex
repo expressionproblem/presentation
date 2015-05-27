@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{interface} \PYGmonokai{n+nc}{StmtAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{R}\PYGmonokai{o}{,}\PYGmonokai{n}{S}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{k+kd}{extends} \PYGmonokai{n}{IntBoolAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{R}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{n}{R} \PYGmonokai{n+nf}{var}\PYGmonokai{o}{(}\PYGmonokai{n}{String} \PYGmonokai{n}{x}\PYGmonokai{o}{);}
+  \PYGmonokai{n}{R} \PYGmonokai{n+nf}{assign}\PYGmonokai{o}{(}\PYGmonokai{n}{String} \PYGmonokai{n}{x}\PYGmonokai{o}{,} \PYGmonokai{n}{R} \PYGmonokai{n}{e}\PYGmonokai{o}{);}
+  \PYGmonokai{n}{S} \PYGmonokai{n+nf}{expr}\PYGmonokai{o}{(}\PYGmonokai{n}{R} \PYGmonokai{n}{e}\PYGmonokai{o}{);}
+  \PYGmonokai{n}{S} \PYGmonokai{n+nf}{comp}\PYGmonokai{o}{(}\PYGmonokai{n}{S} \PYGmonokai{n}{s1}\PYGmonokai{o}{,} \PYGmonokai{n}{S} \PYGmonokai{n}{s2}\PYGmonokai{o}{);}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

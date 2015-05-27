@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kr}{data} \PYGmonokai{k+kt}{Const} \PYGmonokai{o+ow}{=} \PYGmonokai{k+kt}{Const} \PYGmonokai{k+kt}{Int}
+\PYGmonokai{k+kr}{data} \PYGmonokai{k+kt}{Add} \PYGmonokai{n}{a} \PYGmonokai{n}{b} \PYGmonokai{k+kr}{where}
+  \PYGmonokai{k+kt}{Add} \PYGmonokai{o+ow}{::} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Expr} \PYGmonokai{n}{l}\PYGmonokai{p}{,} \PYGmonokai{k+kt}{Expr} \PYGmonokai{n}{r}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=\PYGmonokaiZgt{}} \PYGmonokai{n}{l} \PYGmonokai{o+ow}{\PYGmonokaiZhy{}\PYGmonokaiZgt{}} \PYGmonokai{n}{r} \PYGmonokai{o+ow}{\PYGmonokaiZhy{}\PYGmonokaiZgt{}} \PYGmonokai{k+kt}{Add} \PYGmonokai{n}{l} \PYGmonokai{n}{r}
+\end{Verbatim}

@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kr}{data} \PYGmonokai{k+kt}{Expr} \PYGmonokai{o+ow}{=} \PYGmonokai{k+kt}{Const} \PYGmonokai{k+kt}{Int}
+          \PYGmonokai{o}{|} \PYGmonokai{k+kt}{Add} \PYGmonokai{k+kt}{Expr} \PYGmonokai{k+kt}{Expr}
+
+\PYGmonokai{n+nf}{eval} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Const} \PYGmonokai{n}{x}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=} \PYGmonokai{n}{x}
+\PYGmonokai{n+nf}{eval} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Add} \PYGmonokai{n}{e1} \PYGmonokai{n}{e2}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=} \PYGmonokai{n}{eval} \PYGmonokai{n}{e1} \PYGmonokai{o}{+} \PYGmonokai{n}{eval} \PYGmonokai{n}{e2}
+\PYGmonokai{n+nf}{numConst} \PYGmonokai{o+ow}{=} \PYGmonokai{o}{..}
+\PYGmonokai{n+nf}{prettyPrint} \PYGmonokai{o+ow}{=} \PYGmonokai{o}{..}
+\end{Verbatim}

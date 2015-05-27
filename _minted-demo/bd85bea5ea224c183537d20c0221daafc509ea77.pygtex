@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGmonokai{k+kr}{data} \PYGmonokai{k+kt}{Expr} \PYGmonokai{o+ow}{=} \PYGmonokai{k+kt}{Const} \PYGmonokai{k+kt}{Int}
+          \PYGmonokai{o}{|} \PYGmonokai{k+kt}{Add} \PYGmonokai{k+kt}{Expr} \PYGmonokai{k+kt}{Expr}
+
+\PYGmonokai{n+nf}{eval} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Const} \PYGmonokai{n}{x}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=} \PYGmonokai{n}{x}
+\PYGmonokai{n+nf}{eval} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Add} \PYGmonokai{o}{\PYGmonokaiZdl{}}\PYGmonokai{n}{e\PYGmonokaiZus{}1}\PYGmonokai{o}{\PYGmonokaiZdl{}} \PYGmonokai{o}{\PYGmonokaiZdl{}}\PYGmonokai{n}{e\PYGmonokaiZus{}2}\PYGmonokai{o}{\PYGmonokaiZdl{}}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=} \PYGmonokai{n}{eval} \PYGmonokai{o}{\PYGmonokaiZdl{}}\PYGmonokai{n}{e\PYGmonokaiZus{}1}\PYGmonokai{o}{\PYGmonokaiZdl{}} \PYGmonokai{o}{+} \PYGmonokai{n}{eval} \PYGmonokai{o}{\PYGmonokaiZdl{}}\PYGmonokai{n}{e\PYGmonokaiZus{}2}\PYGmonokai{o}{\PYGmonokaiZdl{}}
+\PYGmonokai{n+nf}{numConst} \PYGmonokai{o+ow}{=} \PYGmonokai{o}{..}
+\PYGmonokai{n+nf}{prettyPrint} \PYGmonokai{o+ow}{=} \PYGmonokai{o}{..}
+\end{Verbatim}

@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kr}{instance} \PYGmonokai{k+kt}{Eval} \PYGmonokai{k+kt}{Const} \PYGmonokai{k+kr}{where}
+ \PYGmonokai{n}{eval} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Const} \PYGmonokai{n}{i}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=} \PYGmonokai{n}{i}
+\PYGmonokai{k+kr}{instance} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Eval} \PYGmonokai{n}{l}\PYGmonokai{p}{,} \PYGmonokai{k+kt}{Eval} \PYGmonokai{n}{r}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=\PYGmonokaiZgt{}} \PYGmonokai{k+kt}{Eval} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Add} \PYGmonokai{n}{l} \PYGmonokai{n}{r}\PYGmonokai{p}{)} \PYGmonokai{k+kr}{where}
+ \PYGmonokai{n}{eval} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Add} \PYGmonokai{n}{l} \PYGmonokai{n}{r}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=} \PYGmonokai{n}{eval} \PYGmonokai{n}{l} \PYGmonokai{o}{+} \PYGmonokai{n}{eval} \PYGmonokai{n}{r}
+\end{Verbatim}

@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGmonokai{n}{string} \PYGmonokai{n}{pp} \PYGmonokai{o}{=} \PYGmonokai{n}{make3Plus5}\PYGmonokai{o}{(}\PYGmonokai{k}{new} \PYGmonokai{n}{IntBoolPrintVisitor}\PYGmonokai{o}{());}
+\end{Verbatim}

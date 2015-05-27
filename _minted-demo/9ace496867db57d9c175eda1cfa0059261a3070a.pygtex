@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{Pair}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{A}\PYGmonokai{o}{,} \PYGmonokai{n}{B}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{n}{A} \PYGmonokai{n}{a}\PYGmonokai{o}{;} \PYGmonokai{n}{B} \PYGmonokai{n}{b}\PYGmonokai{o}{;}
+  \PYGmonokai{n}{Pair}\PYGmonokai{o}{(}\PYGmonokai{n}{A} \PYGmonokai{n}{a}\PYGmonokai{o}{,} \PYGmonokai{n}{B} \PYGmonokai{n}{b}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{k}{this}\PYGmonokai{o}{.}\PYGmonokai{n+na}{a} \PYGmonokai{o}{=} \PYGmonokai{n}{a}\PYGmonokai{o}{;} \PYGmonokai{k}{this}\PYGmonokai{o}{.}\PYGmonokai{n+na}{b} \PYGmonokai{o}{=} \PYGmonokai{n}{b}\PYGmonokai{o}{;} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{n}{A} \PYGmonokai{n+nf}{a}\PYGmonokai{o}{()} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{k}{return} \PYGmonokai{n}{a}\PYGmonokai{o}{;} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{n}{B} \PYGmonokai{n+nf}{b}\PYGmonokai{o}{()} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{k}{return} \PYGmonokai{n}{b}\PYGmonokai{o}{;} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

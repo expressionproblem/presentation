@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kr}{class} \PYGmonokai{k+kt}{Expr} \PYGmonokai{n}{e} \PYGmonokai{o+ow}{=\PYGmonokaiZgt{}} \PYGmonokai{k+kt}{Pretty} \PYGmonokai{n}{e} \PYGmonokai{k+kr}{where}
+ \PYGmonokai{n}{pretty} \PYGmonokai{o+ow}{::} \PYGmonokai{n}{e} \PYGmonokai{o+ow}{\PYGmonokaiZhy{}\PYGmonokaiZgt{}} \PYGmonokai{k+kt}{String}
+
+\PYGmonokai{k+kr}{instance} \PYGmonokai{k+kt}{Pretty} \PYGmonokai{k+kt}{Const} \PYGmonokai{k+kr}{where}
+ \PYGmonokai{n}{pretty} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Const} \PYGmonokai{n}{i}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=} \PYGmonokai{n}{show} \PYGmonokai{n}{i}
+
+\PYGmonokai{k+kr}{instance} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Pretty} \PYGmonokai{n}{l}\PYGmonokai{p}{,} \PYGmonokai{k+kt}{Pretty} \PYGmonokai{n}{r}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=\PYGmonokaiZgt{}} \PYGmonokai{k+kt}{Pretty} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Add} \PYGmonokai{n}{l} \PYGmonokai{n}{r}\PYGmonokai{p}{)} \PYGmonokai{k+kr}{where}
+ \PYGmonokai{n}{pretty} \PYGmonokai{p}{(}\PYGmonokai{k+kt}{Add} \PYGmonokai{n}{l} \PYGmonokai{n}{r}\PYGmonokai{p}{)} \PYGmonokai{o+ow}{=} \PYGmonokai{l+s}{\PYGmonokaiZdq{}(\PYGmonokaiZdq{}} \PYGmonokai{o}{++} \PYGmonokai{n}{pretty} \PYGmonokai{n}{l} \PYGmonokai{o}{++} \PYGmonokai{l+s}{\PYGmonokaiZdq{} + \PYGmonokaiZdq{}} \PYGmonokai{o}{++} \PYGmonokai{n}{pretty} \PYGmonokai{n}{r} \PYGmonokai{o}{++} \PYGmonokai{l+s}{\PYGmonokaiZdq{})\PYGmonokaiZdq{}}
+\end{Verbatim}

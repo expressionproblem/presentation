@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGmonokai{k+kd}{interface} \PYGmonokai{n+nc}{ExpIntBool}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{R}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{k+kd}{extends} \PYGmonokai{n}{BoolAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{R}\PYGmonokai{o}{\PYGmonokaiZgt{},} \PYGmonokai{n}{IntAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{R}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{o}{\PYGmonokaiZob{}\PYGmonokaiZcb{}}
+\end{Verbatim}

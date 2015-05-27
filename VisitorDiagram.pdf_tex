@@ -1,0 +1,74 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'VisitorDiagram.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{411.88569336bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.88901227)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{VisitorDiagram.pdf}}%
+    \put(0.04957737,0.83279252){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.23999953\unitlength}\centering \textbf{Client}\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{VisitorDiagram.pdf}}%
+    \put(0.03581238,0.36932062){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<R> R accept(v:Visitor<R>)}}}%
+    \put(0.02605277,0.51644144){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28394309\unitlength}\centering \textbf{Expr}\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{VisitorDiagram.pdf}}%
+    \put(0.03581238,0.05066728){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<R> R accept(v:Visitor<R>)}}}%
+    \put(0.02469375,0.19624577){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28394309\unitlength}\centering \textbf{Add}\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{VisitorDiagram.pdf}}%
+    \put(0.58708903,0.32753828){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{string visit(a:Add)}}}%
+    \put(0.58028049,0.47724121){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.37521041\unitlength}\centering \textbf{PrintVisitor}\end{minipage}}}%
+    \put(0.15100412,0.67598599){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.01690135\unitlength}\raggedright \end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{VisitorDiagram.pdf}}%
+    \put(0.58708909,0.69185868){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{R visit(a:Add)}}}%
+    \put(0.13891432,0.83430842){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.06197173\unitlength}\raggedright \end{minipage}}}%
+    \put(0.34253453,0.60844947){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.19943618\unitlength}\raggedright \end{minipage}}}%
+    \put(0.57915375,0.83780385){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.37859074\unitlength}\centering \textbf{<<interface>> Visitor<R>}\textbf{\\ }\end{minipage}}}%
+    \put(0.78373045,0.5697141){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<realize>>}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{VisitorDiagram.pdf}}%
+    \put(0.32112611,0.29859092){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.23661928\unitlength}\raggedright \end{minipage}}}%
+    \put(0.39436538,0.58140728){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.21971786\unitlength}\raggedright \end{minipage}}}%
+  \end{picture}%
+\endgroup%

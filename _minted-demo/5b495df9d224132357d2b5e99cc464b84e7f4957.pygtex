@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{interface} \PYGmonokai{n+nc}{Expr} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{k+kt}{int} \PYGmonokai{n+nf}{eval}\PYGmonokai{o}{();}
+  \PYGmonokai{n}{String} \PYGmonokai{n+nf}{pretty}\PYGmonokai{o}{();}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

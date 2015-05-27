@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{interface} \PYGmonokai{n+nc}{IntAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{A}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{n}{A} \PYGmonokai{n+nf}{lit}\PYGmonokai{o}{(}\PYGmonokai{k+kt}{int} \PYGmonokai{n}{x}\PYGmonokai{o}{);}
+  \PYGmonokai{n}{A} \PYGmonokai{n+nf}{add}\PYGmonokai{o}{(}\PYGmonokai{n}{A} \PYGmonokai{n}{e1}\PYGmonokai{o}{,} \PYGmonokai{n}{A} \PYGmonokai{n}{e2}\PYGmonokai{o}{);}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+
+\PYGmonokai{k+kd}{interface} \PYGmonokai{n+nc}{Exp} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{A}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{n}{A} \PYGmonokai{n+nf}{accept}\PYGmonokai{o}{(}\PYGmonokai{n}{IntAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{A}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{n}{vis}\PYGmonokai{o}{);}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{Add} \PYGmonokai{k+kd}{implements} \PYGmonokai{n}{Exp} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{n}{Exp} \PYGmonokai{n}{left}\PYGmonokai{o}{,} \PYGmonokai{n}{right}\PYGmonokai{o}{;}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n+nf}{Add}\PYGmonokai{o}{(}\PYGmonokai{n}{Exp} \PYGmonokai{n}{left}\PYGmonokai{o}{,} \PYGmonokai{n}{Exp} \PYGmonokai{n}{right}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{k}{this}\PYGmonokai{o}{.}\PYGmonokai{n+na}{left} \PYGmonokai{o}{=} \PYGmonokai{n}{left}\PYGmonokai{o}{;} \PYGmonokai{k}{this}\PYGmonokai{o}{.}\PYGmonokai{n+na}{right} \PYGmonokai{o}{=} \PYGmonokai{n}{right}\PYGmonokai{o}{;} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{A}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{n}{A} \PYGmonokai{n+nf}{accept}\PYGmonokai{o}{(}\PYGmonokai{n}{IntAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{A}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{n}{vis}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}}
+    \PYGmonokai{k}{return} \PYGmonokai{n}{vis}\PYGmonokai{o}{.}\PYGmonokai{n+na}{add}\PYGmonokai{o}{(}\PYGmonokai{n}{left}\PYGmonokai{o}{.}\PYGmonokai{n+na}{accept}\PYGmonokai{o}{(}\PYGmonokai{n}{vis}\PYGmonokai{o}{),} \PYGmonokai{n}{right}\PYGmonokai{o}{.}\PYGmonokai{n+na}{accept}\PYGmonokai{o}{(}\PYGmonokai{n}{vis}\PYGmonokai{o}{));}
+  \PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

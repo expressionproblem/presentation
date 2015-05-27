@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGmonokai{k+kd}{interface} \PYGmonokai{n+nc}{Exp} \PYGmonokai{o}{\PYGmonokaiZob{}}
+    \PYGmonokai{n}{Value} \PYGmonokai{n+nf}{eval}\PYGmonokai{o}{();}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{Lit} \PYGmonokai{k+kd}{implements} \PYGmonokai{n}{Exp} \PYGmonokai{o}{\PYGmonokaiZob{}}
+    \PYGmonokai{k+kt}{int} \PYGmonokai{n}{x}\PYGmonokai{o}{;}
+    \PYGmonokai{k+kd}{public} \PYGmonokai{n+nf}{Lit}\PYGmonokai{o}{(}\PYGmonokai{k+kt}{int} \PYGmonokai{n}{x}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{k}{this}\PYGmonokai{o}{.}\PYGmonokai{n+na}{x} \PYGmonokai{o}{=} \PYGmonokai{n}{x}\PYGmonokai{o}{;} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+    \PYGmonokai{k+kd}{public} \PYGmonokai{n}{Value} \PYGmonokai{n+nf}{eval}\PYGmonokai{o}{()} \PYGmonokai{o}{\PYGmonokaiZob{}}
+        \PYGmonokai{k}{return} \PYGmonokai{k}{new} \PYGmonokai{n}{VInt}\PYGmonokai{o}{(}\PYGmonokai{n}{x}\PYGmonokai{o}{);}
+\PYGmonokai{o}{\PYGmonokaiZcb{}\PYGmonokaiZcb{}}
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{Add} \PYGmonokai{k+kd}{implements} \PYGmonokai{n}{Exp} \PYGmonokai{o}{\PYGmonokaiZob{}}
+    \PYGmonokai{n}{Exp} \PYGmonokai{n}{l}\PYGmonokai{o}{,} \PYGmonokai{n}{r}\PYGmonokai{o}{;}
+    \PYGmonokai{k+kd}{public} \PYGmonokai{n+nf}{Add}\PYGmonokai{o}{(}\PYGmonokai{n}{Exp} \PYGmonokai{n}{l}\PYGmonokai{o}{,} \PYGmonokai{n}{Exp} \PYGmonokai{n}{r}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}} \PYGmonokai{k}{this}\PYGmonokai{o}{.}\PYGmonokai{n+na}{l} \PYGmonokai{o}{=} \PYGmonokai{n}{l}\PYGmonokai{o}{;} \PYGmonokai{k}{this}\PYGmonokai{o}{.}\PYGmonokai{n+na}{r} \PYGmonokai{o}{=} \PYGmonokai{n}{r}\PYGmonokai{o}{;} \PYGmonokai{o}{\PYGmonokaiZcb{}}
+    \PYGmonokai{k+kd}{public} \PYGmonokai{n}{Value} \PYGmonokai{n+nf}{eval}\PYGmonokai{o}{()} \PYGmonokai{o}{\PYGmonokaiZob{}}
+        \PYGmonokai{k}{return} \PYGmonokai{k}{new} \PYGmonokai{n}{VInt}\PYGmonokai{o}{(}\PYGmonokai{n}{l}\PYGmonokai{o}{.}\PYGmonokai{n+na}{eval}\PYGmonokai{o}{().}\PYGmonokai{n+na}{getInt}\PYGmonokai{o}{()} \PYGmonokai{o}{+} \PYGmonokai{n}{r}\PYGmonokai{o}{.}\PYGmonokai{n+na}{eval}\PYGmonokai{o}{().}\PYGmonokai{n+na}{getInt}\PYGmonokai{o}{());}
+\PYGmonokai{o}{\PYGmonokaiZcb{}\PYGmonokaiZcb{}}
+\end{Verbatim}

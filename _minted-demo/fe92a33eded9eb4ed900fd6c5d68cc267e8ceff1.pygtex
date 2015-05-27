@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{interface} \PYGmonokai{n+nc}{Expr} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{R}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{n}{R} \PYGmonokai{n+nf}{accept}\PYGmonokai{o}{(}\PYGmonokai{n}{IntAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{R}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{n}{vis}\PYGmonokai{o}{);}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

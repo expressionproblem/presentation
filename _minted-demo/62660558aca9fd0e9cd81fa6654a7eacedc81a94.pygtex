@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{IntBoolPrintVisitor} \PYGmonokai{k+kd}{extends} \PYGmonokai{n}{PrintVisitor}
+                          \PYGmonokai{k+kd}{implements} \PYGmonokai{n}{IntBoolAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{string}\PYGmonokai{o}{\PYGmonokaiZgt{}} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n}{string} \PYGmonokai{n+nf}{bool}\PYGmonokai{o}{(}\PYGmonokai{k+kd}{final} \PYGmonokai{n}{Boolean} \PYGmonokai{n}{b}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}}
+    \PYGmonokai{k}{return} \PYGmonokai{k}{new} \PYGmonokai{n}{Boolean}\PYGmonokai{o}{(}\PYGmonokai{n}{b}\PYGmonokai{o}{).}\PYGmonokai{n+na}{toString}\PYGmonokai{o}{();}
+  \PYGmonokai{o}{\PYGmonokaiZcb{}}
+  \PYGmonokai{k+kd}{public} \PYGmonokai{n}{string} \PYGmonokai{n+nf}{iff}\PYGmonokai{o}{(}\PYGmonokai{k+kd}{final} \PYGmonokai{n}{string} \PYGmonokai{n}{e1}\PYGmonokai{o}{,} \PYGmonokai{k+kd}{final} \PYGmonokai{n}{string} \PYGmonokai{n}{e2}\PYGmonokai{o}{,} \PYGmonokai{k+kd}{final} \PYGmonokai{n}{string} \PYGmonokai{n}{e3}\PYGmonokai{o}{)} \PYGmonokai{o}{\PYGmonokaiZob{}}
+    \PYGmonokai{k}{return} \PYGmonokai{l+s}{\PYGmonokaiZdq{}if (\PYGmonokaiZdq{}} \PYGmonokai{o}{+} \PYGmonokai{n}{e1} \PYGmonokai{o}{+} \PYGmonokai{l+s}{\PYGmonokaiZdq{}) then \PYGmonokaiZdq{}} \PYGmonokai{o}{+} \PYGmonokai{n}{e2} \PYGmonokai{o}{+} \PYGmonokai{l+s}{\PYGmonokaiZdq{} else \PYGmonokaiZdq{}} \PYGmonokai{o}{+} \PYGmonokai{n}{e3}\PYGmonokai{o}{;}
+  \PYGmonokai{o}{\PYGmonokaiZcb{}}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

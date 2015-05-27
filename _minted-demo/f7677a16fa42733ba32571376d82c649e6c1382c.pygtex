@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kd}{interface} \PYGmonokai{n+nc}{Printable} \PYGmonokai{o}{\PYGmonokaiZob{}}
+  \PYGmonokai{n}{string} \PYGmonokai{n+nf}{pretty}\PYGmonokai{o}{();}
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+
+\PYGmonokai{k+kd}{class} \PYGmonokai{n+nc}{Implementation} \PYGmonokai{k+kd}{implements} \PYGmonokai{n}{IntAlg}\PYGmonokai{o}{\PYGmonokaiZlt{}}\PYGmonokai{n}{Printable}\PYGmonokai{o}{\PYGmonokaiZgt{}}
+\PYGmonokai{o}{\PYGmonokaiZob{}}
+
+\PYGmonokai{o}{\PYGmonokaiZcb{}}
+\end{Verbatim}

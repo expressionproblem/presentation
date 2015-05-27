@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGmonokai{k+kt}{string} \PYGmonokai{n}{title} \PYGmonokai{p}{=} \PYGmonokai{l+s}{\PYGmonokaiZdq{}This is a Unicode π in the sky\PYGmonokaiZdq{}}
+\PYGmonokai{c+cm}{/*}
+\PYGmonokai{c+cm}{Defined as $\pi=\lim_{n\to\infty}\frac{P_n}{d}$ where $P$ is the perimeter}
+\PYGmonokai{c+cm}{of an $n$\PYGmonokaiZhy{}sided regular polygon circumscribing a}
+\PYGmonokai{c+cm}{circle of diameter $d$.}
+\PYGmonokai{c+cm}{*/}
+\PYGmonokai{k}{const} \PYGmonokai{k+kt}{double} \PYGmonokai{n}{pi} \PYGmonokai{p}{=} \PYGmonokai{l+m}{3.1415926535}
+\end{Verbatim}
